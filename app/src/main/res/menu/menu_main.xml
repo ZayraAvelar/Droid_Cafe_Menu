@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.droid_cafe_menu.MainActivity">
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="Contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="10"
+        android:title="Order"
+        android:icon="@drawable/order"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="20"
+        android:title="Status"
+        android:icon="@drawable/status"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="30"
+        android:title="Favorites"
+        android:icon="@drawable/favorite"
+        app:showAsAction="ifRoom" />
+</menu>
